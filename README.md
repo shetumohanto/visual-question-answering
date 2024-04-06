@@ -1,4 +1,4 @@
-# mistral
+# Mistral-Intelligent EYE
 ### Add project flow diagram
 ### Add API key addition instruction and link to the tutorial
 ### Install dependencies from requirements.txt
