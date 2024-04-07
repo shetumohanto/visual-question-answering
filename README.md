@@ -22,10 +22,12 @@ The Intelligent EYE enables users to query images using text input. Users can se
 * Steps for Ubuntu
 ```bash
 sudo nano /etc/environment
-OPEN_AI_API="<Paste_Your_GPT4_Vision_API_Here>"
+# Put the line at the last of the file
+OPENAI_API_KEY="<Paste_Your_GPT4_Vision_API_Here>"
 # Exit by pressing Ctrl+X and typing Y when prompted to save the changes then press Enter
 sudo nano ~/.bashrc
-export OPEN_AI_API="<Paste_Your_GPT4_Vision_API_Here>"
+# Put the line at the last of the file
+export OPENAI_API_KEY="<Paste_Your_GPT4_Vision_API_Here>"
 # Exit bashrc by pressing Ctrl+X and typing Y when prompted to save the changes then press Enter
 ```
 
