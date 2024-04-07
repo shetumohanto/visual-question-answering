@@ -253,7 +253,7 @@ def gpt_4_response(image_ori, user_message, masks_interactive, mask_all):
     return res_filteres, out_image, dict_class, res
 
 def intelligent_eye(image_in, canvas_result, user_question):
-    sam_ckpt = "./sam_vit_h_4b8939.pth"
+    sam_ckpt = "sam_vit_h_4b8939.pth"
     model_sam = sam_model_registry["vit_h"](checkpoint=sam_ckpt).eval().cuda()
     
     image_ori = np.array(image_in)
