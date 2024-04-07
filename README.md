@@ -23,10 +23,10 @@ The Intelligent EYE enables users to query images using text input. Users can se
 ```bash
 sudo nano /etc/environment
 OPEN_AI_API="<Paste_Your_GPT4_Vision_API_Here>"
-# Exit by pressing Ctrl+X and typing Y when prompted to save the changes
+# Exit by pressing Ctrl+X and typing Y when prompted to save the changes then press Enter
 sudo nano ~/.bashrc
 export OPEN_AI_API="<Paste_Your_GPT4_Vision_API_Here>"
-# Exit bashrc by pressing Ctrl+X and typing Y when prompted to save the changes
+# Exit bashrc by pressing Ctrl+X and typing Y when prompted to save the changes then press Enter
 ```
 
 * Clone the repository
