@@ -52,5 +52,5 @@ Intelligent EYE uses the following technologies at its core architecture:
 - [Segment Anything](https://github.com/facebookresearch/segment-anything): Segment anything
 - [SoM](https://github.com/microsoft/SoM): Set-of-Mark Visual Prompting for GPT-4V
 
-### Show some example
-### Add some sample image
+### Sample output
+![example](https://github.com/shetumohanto/mistral/assets/53278488/c652ec68-4514-4be3-8b6c-17db04d37fc7)
