@@ -4,6 +4,7 @@
 </p>
 
 ### Introduction
+The Intelligent EYE enables users to query images using text input. Users can select specific objects for their queries, streamlining the process of asking questions and eliminating the need to describe the position of objects within the image using words.
 
 ### Intelligent EYE Architecture
 <p align="center">
