@@ -12,14 +12,14 @@ from torchvision import transforms
 
 from segment_anything import sam_model_registry
 
-from utils.visualizer import Visualizer
+from visualizer import Visualizer
 from detectron2.data import MetadataCatalog
 metadata = MetadataCatalog.get('coco_2017_train_panoptic')
 
 from scipy.ndimage import label
 import numpy as np
 
-from utils.gpt4v import request_gpt4v
+from gpt4v import request_gpt4v
 
 import matplotlib.pyplot as plt 
 import matplotlib.colors as mcolors

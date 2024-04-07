@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
-from utils.intelligent_eye import intelligent_eye
+from intelligent_eye import intelligent_eye
 
 def main():
     st.title('Intelligent EYE')
