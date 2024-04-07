@@ -38,7 +38,7 @@ streamlit run app.py
 ```
 ### 🔗 Related Works
 
-Intelligent EYE uses the following technology at its core architecture:
+Intelligent EYE uses the following technologies at its core architecture:
 - [Segment Anything](https://github.com/facebookresearch/segment-anything): Segment anything
 - [SoM](https://github.com/microsoft/SoM): Set-of-Mark Visual Prompting for GPT-4V
 
