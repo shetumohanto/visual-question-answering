@@ -12,7 +12,7 @@ from torchvision import transforms
 
 from segment_anything import sam_model_registry
 
-from visualizer import Visualizer
+from utils.visualizer import Visualizer
 from detectron2.data import MetadataCatalog
 metadata = MetadataCatalog.get('coco_2017_train_panoptic')
 
