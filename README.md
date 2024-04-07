@@ -20,7 +20,7 @@ The Intelligent EYE enables users to query images using text input. Users can se
 ### :rocket: Quick Start
 * Clone the repository
 ```bash
-git clone
+git clone https://github.com/shetumohanto/mistral.git
 ```
 * Add your `GPT-4 Vision API` using a `global environment variable` defined as `OPEN_AI_API`
 * Steps for Ubuntu
