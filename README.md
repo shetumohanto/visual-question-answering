@@ -24,6 +24,7 @@ sudo nano ~/.bashrc
 # Insert the line at the last of the file
 export OPENAI_API_KEY="<Paste_Your_GPT4_Vision_API_Here>"
 # Exit bashrc by pressing Ctrl+X and typing Y when prompted to save the changes, press Enter to complete
+source ~/.bashrc
 ```
 
 * Clone the repository
