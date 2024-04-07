@@ -7,7 +7,7 @@
 
 ### Intelligent EYE Architecture
 <p align="center">
-  <img src="https://github.com/shetumohanto/mistral/assets/53278488/b202a220-ed18-4cdf-8ec6-ffda2ec19d0d">
+  <img src="https://github.com/shetumohanto/mistral/assets/53278488/ba3c39fe-042b-44a9-8726-d1d7c154f029">
 </p>
 
 ### 🔗 System requirements
