@@ -4,6 +4,7 @@
 </p>
 
 ### Introduction
+
 The Intelligent EYE enables users to query images using text input. Users can select specific objects for their queries, streamlining the process of asking questions and eliminating the need to describe the position of objects within the image using words.
 
 ### Intelligent EYE Architecture
@@ -35,6 +36,11 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+### 🔗 Related Works
+
+Intelligent EYE uses the following technology at its core architecture:
+- [Segment Anything](https://github.com/facebookresearch/segment-anything): Segment anything
+- [SoM](https://github.com/microsoft/SoM): Set-of-Mark Visual Prompting for GPT-4V
 
 ### Show some example
 ### Add some sample image
