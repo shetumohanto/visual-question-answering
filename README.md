@@ -32,7 +32,7 @@ source /etc/environment
 * Clone the repository
 ```bash
 git clone https://github.com/shetumohanto/mistral.git
-cd /mistral
+cd mistral
 ```
 
 * Download checkpoint for the `segment anything` `vit_h` model. 
