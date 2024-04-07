@@ -55,7 +55,7 @@ def main():
         # Process the image and user input
         if st.button("Run"):
     
-            processed_image, result_text = intelligence_vision(image, canvas_result, user_input)
+            processed_image, result_text = intelligent_eye(image, canvas_result, user_input)
 
             # Display processed image and result
             st.image(processed_image, caption='Response', use_column_width=True)
