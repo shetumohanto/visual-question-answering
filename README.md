@@ -21,6 +21,7 @@ The Intelligent EYE enables users to query images using text input. Users can se
 * Add your `GPT-4 Vision API` using a `global environment variable` defined as `OPEN_AI_API`
 * Steps for Ubuntu
 ```bash
+sudo apt install nano
 sudo nano /etc/environment
 # Put the line at the last of the file
 OPENAI_API_KEY="<Paste_Your_GPT4_Vision_API_Here>"
