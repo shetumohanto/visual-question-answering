@@ -19,7 +19,7 @@ metadata = MetadataCatalog.get('coco_2017_train_panoptic')
 from scipy.ndimage import label
 import numpy as np
 
-from gpt4v import request_gpt4v
+from utils.gpt4v import request_gpt4v
 
 import matplotlib.pyplot as plt 
 import matplotlib.colors as mcolors
