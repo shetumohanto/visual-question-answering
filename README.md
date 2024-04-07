@@ -15,7 +15,7 @@
 * `Python 3.8` or higher
 
 ### :rocket: Quick Start
-* Add your GPT-4 Vision API using a global environment variable defined as `OPEN_AI_API`
+* Add your `GPT-4 Vision API` using a `global environment variable` defined as `OPEN_AI_API`
 * Steps for Ubuntu
 ```bash
 sudo nano /etc/environment
