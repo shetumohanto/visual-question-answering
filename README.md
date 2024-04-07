@@ -1,4 +1,4 @@
-# Mistral-Intelligent EYE
+# Intelligent EYE
 <p align="center">
   <img src="https://github.com/shetumohanto/mistral/assets/53278488/5343483e-5212-44bf-bb2a-2cc25a98d424">
 </p>
