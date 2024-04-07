@@ -22,6 +22,7 @@ The Intelligent EYE enables users to query images using text input. Users can se
 ```bash
 git clone https://github.com/shetumohanto/mistral.git
 ```
+
 * Add your `GPT-4 Vision API` using a `global environment variable` defined as `OPEN_AI_API`
 * Steps for Ubuntu
 ```bash
@@ -31,6 +32,11 @@ OPEN_AI_API="<Paste_Your_GPT4_Vision_API_Here>"
 sudo nano ~/.bashrc
 export OPEN_AI_API="<Paste_Your_GPT4_Vision_API_Here>"
 # Exit bashrc by pressing Ctrl+X and typing Y when prompted to save the changes
+```
+
+* Download checkpoint for the `segment anything` `vit_h` model. 
+```bash
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 ```
 
 * Install required dependencies
