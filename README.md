@@ -20,8 +20,10 @@
 ```bash
 sudo nano /etc/environment
 OPEN_AI_API="<Paste_Your_GPT4_Vision_API_Here>"
+# Exit by pressing Ctrl+X and typing Y when prompted to save the changes
 sudo nano ~/.bashrc
 export OPEN_AI_API="<Paste_Your_GPT4_Vision_API_Here>"
+# Exit bashrc by pressing Ctrl+X and typing Y when prompted to save the changes
 ```
 
 * Install required dependencies
