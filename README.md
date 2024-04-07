@@ -15,9 +15,13 @@ The Intelligent EYE enables users to query images using text input. Users can se
 
 ### 🔗 System requirements
 * Requires a `CUDA compatible GPU` with minimum `8gb VRAM`
-* `Python 3.8` or higher
+* `Python>=3.8`
 
 ### :rocket: Quick Start
+* Clone the repository
+```bash
+git clone
+```
 * Add your `GPT-4 Vision API` using a `global environment variable` defined as `OPEN_AI_API`
 * Steps for Ubuntu
 ```bash
