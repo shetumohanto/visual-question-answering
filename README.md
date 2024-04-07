@@ -18,7 +18,7 @@ The Intelligent EYE enables users to query images using text input. Users can se
 * `Python>=3.8`
 
 ### :rocket: Quick Start
-* Add your `GPT-4 Vision API` using an `environment variable` defined as `OPEN_AI_API`
+* Add your `GPT-4 Vision API` using an `environment variable` defined as `OPENAI_API_KEY`
 ```bash
 sudo nano ~/.bashrc
 # Insert the line at the last of the file
