@@ -33,7 +33,7 @@ git clone https://github.com/shetumohanto/mistral.git
 cd mistral
 ```
 
-* Download checkpoint for the `segment anything` `vit_h` model. 
+* Download checkpoint for the `segment anything` `vit_h` model (checkpoint must be in `utils` folder). 
 ```bash
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -P ./utils
 ```
