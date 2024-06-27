@@ -29,8 +29,8 @@ source ~/.bashrc
 
 * Clone the repository
 ```bash
-git clone https://github.com/shetumohanto/mistral.git
-cd mistral
+git clone https://github.com/shetumohanto/intelligent-eye.git
+cd intelligent-eye
 ```
 
 * Download checkpoint for the `segment anything` `vit_h` model. 
