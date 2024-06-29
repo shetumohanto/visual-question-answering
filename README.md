@@ -1,4 +1,4 @@
-# Intelligent EYE
+# Visual question answering with grounding and user selection preference
 
 <p align="center">
   <img width="300px" src="https://github.com/shetumohanto/mistral/assets/53278488/5343483e-5212-44bf-bb2a-2cc25a98d424">
@@ -6,9 +6,9 @@
 
 ### Introduction
 
-The Intelligent EYE enables users to query images using text input. Users can select specific objects for their queries, streamlining the process of asking questions and eliminating the need to describe the position of objects within the image using words.
+Enables users to query images using text input. Users can select specific objects for their queries, streamlining the process of asking questions and eliminating the need to describe the position of objects within the image using spatial words.
 
-### Intelligent EYE Architecture
+### Architecture
 <p align="center">
   <img src="https://github.com/shetumohanto/mistral/assets/53278488/ba3c39fe-042b-44a9-8726-d1d7c154f029">
 </p>
@@ -48,7 +48,7 @@ streamlit run app.py
 ```
 ### 🔗 Related Works
 
-Intelligent EYE uses the following technologies at its core architecture:
+This project uses the following technologies at its core architecture:
 - [Segment Anything](https://github.com/facebookresearch/segment-anything): Segment anything
 - [SoM](https://github.com/microsoft/SoM): Set-of-Mark Visual Prompting for GPT-4V
 
