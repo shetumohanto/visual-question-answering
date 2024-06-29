@@ -26,7 +26,7 @@ source ~/.bashrc
 * Clone the repository
 ```bash
 git clone https://github.com/shetumohanto/visual-question-answering.git
-cd intelligent-eye
+cd visual-question-answering
 ```
 
 * Download checkpoint for the `segment anything` `vit_h` model. 
