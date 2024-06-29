@@ -25,7 +25,7 @@ source ~/.bashrc
 
 * Clone the repository
 ```bash
-git clone https://github.com/shetumohanto/intelligent-eye.git
+git clone https://github.com/shetumohanto/visual-question-answering.git
 cd intelligent-eye
 ```
 
