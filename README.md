@@ -1,9 +1,5 @@
 # Visual question answering with grounding and user selection preference
 
-<p align="center">
-  <img width="300px" src="https://github.com/shetumohanto/mistral/assets/53278488/5343483e-5212-44bf-bb2a-2cc25a98d424">
-</p>
-
 ### Introduction
 
 Enables users to query images using text input. Users can select specific objects for their queries, streamlining the process of asking questions and eliminating the need to describe the position of objects within the image using spatial words.
