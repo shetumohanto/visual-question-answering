@@ -1,4 +1,4 @@
-# Visual question answering with grounding and user selection preference
+# Visual question answering with grounding and user selection priority
 
 ### Introduction
 
