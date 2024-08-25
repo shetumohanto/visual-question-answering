@@ -20,6 +20,7 @@ from scipy.ndimage import label
 import numpy as np
 
 from gpt4v import request_gpt4v
+from claude import request_claude
 
 import matplotlib.pyplot as plt 
 import matplotlib.colors as mcolors
@@ -231,7 +232,7 @@ def filter_response(response):
     
     return user_res_filter, dict_class, user_res
 
-def gpt_4_response(image_ori, user_message, masks_interactive, mask_all):
+def llm_response(image_ori, user_message, masks_interactive, mask_all):
     number_obj_user = ', '.join(map(str, range(1,len(masks_interactive)+1)))
     number_obj = ', '.join(map(str, range(1,(len(mask_all)+len(masks_interactive)+1))))
             
@@ -245,7 +246,8 @@ def gpt_4_response(image_ori, user_message, masks_interactive, mask_all):
     image = Image.fromarray(image)
     res = ""
     while not (res.find("++Answer++") != -1 or res.find("class_dict") != -1):
-        res = request_gpt4v(system_message, user_message, image)
+        # res = request_gpt4v(system_message, user_message, image)
+        res = request_claude(system_message, user_message, image)
 
     res_filteres, dict_class, user_res = filter_response(res)
     out_image = generate_out_image(image_ori, masks_interactive, mask_all, dict_class, user_res)
@@ -266,6 +268,7 @@ def intelligent_eye(image_in, canvas_result, user_question):
         mask_all = gen_mask_all(model_sam, image_ori)
         mask_all = filter_masks(masks_interactive, mask_all, image_ori)
         
-    res_filteres, out_image, dict_class, res = gpt_4_response(image_ori, user_question, masks_interactive, mask_all)
+    # res_filteres, out_image, dict_class, res = gpt_4_response(image_ori, user_question, masks_interactive, mask_all)
+    res_filteres, out_image, dict_class, res = llm_response(image_ori, user_question, masks_interactive, mask_all)
 
     return out_image, res_filteres
