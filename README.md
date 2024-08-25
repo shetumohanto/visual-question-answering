@@ -15,13 +15,6 @@ Enables users to query images using text input. Users can select specific object
 
 ### :rocket: Quick Start
 * Add your `GPT-4 Vision API Key` using an `environment variable` defined as `OPENAI_API_KEY`
-```bash
-sudo nano ~/.bashrc
-# Insert the line at the last of the file
-export OPENAI_API_KEY="<Paste_Your_GPT4_Vision_API_Key_Here>"
-# Exit bashrc by pressing Ctrl+X and typing Y when prompted to save the changes, press Enter to complete
-source ~/.bashrc
-```
 
 * Clone the repository
 ```bash
